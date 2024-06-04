@@ -1,0 +1,46 @@
+telefonbuch_mittelerde = {
+    "Frodo Beutlin": {
+        "Telefonnummer": "+123456789",
+        "Email": "frodo@beutlin.de"
+    },
+    "Gandalf der Graue": {
+        "Telefonnummer": "+987654321",
+        "Email": "gandalf@graue.de"
+    },
+    "Aragorn": {
+        "Telefonnummer": "+111222333",
+        "Email": "aragorn@königreich.com"
+    },
+    "Legolas": {
+        "Telefonnummer": "+444555666",
+        "Email": "legolas@elfenwald.com"
+    },
+    "Gimli": {
+        "Telefonnummer": "+777888999",
+        "Email": "gimli@zwergenheim.com"
+    },
+    "Gollum": {
+        "Telefonnummer": "+1010101010",
+        "Email": "gollum@schicksal.de"
+    },
+    "Galadriel": {
+        "Telefonnummer": "+1212121212",
+        "Email": "galadriel@elbenreich.com"
+    },
+    "Saruman": {
+        "Telefonnummer": "+1313131313",
+        "Email": "saruman@zauberer.net"
+    },
+    "Samweis Gamdschie": {
+        "Telefonnummer": "+1414141414",
+        "Email": "samweis@gamdschie.de"
+    },
+    "Bilbo Beutlin": {
+        "Telefonnummer": "+1515151515",
+        "Email": "bilbo@beutlin.de"
+    }
+}
+# Extrahiere und gib alle Telefonnummern aus
+telefonnummern = [eintrag["Telefonnummer"] for eintrag in telefonbuch_mittelerde.values()]
+for telefonnummer in telefonnummern:
+    print(telefonnummer)
