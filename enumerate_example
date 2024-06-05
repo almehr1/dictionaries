@@ -1,0 +1,10 @@
+def create_alphabet_mapping():
+    alphabet = 'abcdefghijklmnopqrstuvwxyz'
+    mapping = {}
+    for index, letter in enumerate(alphabet, start=1):
+        mapping[letter] = index
+    return mapping
+
+alphabet_mapping = create_alphabet_mapping()
+
+print(alphabet_mapping)
